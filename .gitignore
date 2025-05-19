@@ -1,0 +1,47 @@
+# Dépendances Node.js
+/node_modules
+/package-lock.json
+
+# Dépendances Python
+__pycache__/
+/*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Environnements et variables sensibles
+.env
+.env.*
+log_ldap.env
+
+# Répertoire de build frontend
+/build
+/dist
+/public/build
+
+# Couverture de test
+/coverage
+
+# Fichiers de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers spécifiques à l’OS
+.DS_Store
+Thumbs.db
+
+# Fichiers internes non pertinents
+push.ps1
+logo_pdf.png
+pdf_temp/
+
+# Images locales non versionnées
+src/Images/
+
+# Ignorer le .pnp si tu utilises Yarn Plug'n'Play
+/.pnp
+.pnp.js
+
+autre
