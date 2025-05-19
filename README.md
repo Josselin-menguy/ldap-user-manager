@@ -128,6 +128,8 @@ npm run dev
 * Le JWT est stocké dans un cookie `HttpOnly` sécurisé
 * Les routes critiques sont protégées par des décorateurs
 * Les DN, emails et domaines sont génériques pour publication
+* L’historique Git a été volontairement réinitialisé pour éviter toute fuite de données confidentielles.
+
 
 ## Licence
 
