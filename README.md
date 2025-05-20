@@ -78,32 +78,6 @@ MAIL_SUPPORT_RECIPIENT=support@example.com
 LDAP_REQUIRED_GROUP_DN=CN=group,OU=Groups,DC=example,DC=com
 ```
 
-Et un fichier `.env` dans le frontend si besoin :
-
-```
-VITE_API_URL=http://localhost:5000
-```
-
-## Lancement en local
-
-### Backend (Flask)
-
-```
-cd flask_app
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python __init__.py
-```
-
-### Frontend (React)
-
-```
-cd frontend
-npm install
-npm run dev
-```
-
 ## Arborescence simplifiée
 
 ```
